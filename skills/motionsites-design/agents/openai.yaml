@@ -1,0 +1,8 @@
+interface:
+  display_name: "MotionSites Design"
+  short_description: "把产品需求转成独特、响应式且可验证的前端页面"
+  brand_color: "#5965D8"
+  default_prompt: "Use $motionsites-design to redesign this interface without changing its business logic."
+
+policy:
+  allow_implicit_invocation: true

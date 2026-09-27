@@ -1,0 +1,27 @@
+{
+  "name": "motionsites-design",
+  "version": "0.1.0",
+  "description": "A design-direction catalog and implementation workflow for distinctive, production-ready web interfaces.",
+  "author": {
+    "name": "Yang Hongliang",
+    "url": "https://github.com/yanghongliang1010-stack"
+  },
+  "homepage": "https://github.com/yanghongliang1010-stack/motionsites-design",
+  "repository": "https://github.com/yanghongliang1010-stack/motionsites-design",
+  "license": "MIT",
+  "keywords": ["frontend", "design", "motion", "ui", "ux", "codex-skill"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Motionsites Design",
+    "shortDescription": "Turn product briefs into distinctive, responsive interfaces.",
+    "longDescription": "Search curated design directions, convert a brief into a visual system, implement the page in the current stack, and verify responsive behavior, accessibility, and motion.",
+    "developerName": "Yang Hongliang",
+    "category": "Developer Tools",
+    "capabilities": ["Design direction search", "Frontend implementation", "Responsive visual QA"],
+    "brandColor": "#5965D8",
+    "defaultPrompt": [
+      "Use $motionsites-design to redesign this page without changing its business logic.",
+      "Use $motionsites-design to turn this product brief into a responsive production-ready interface."
+    ]
+  }
+}

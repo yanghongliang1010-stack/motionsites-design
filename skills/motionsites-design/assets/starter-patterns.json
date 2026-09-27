@@ -1,0 +1,146 @@
+[
+  {
+    "id": "ai-operations-cockpit",
+    "title": "AI Operations Cockpit",
+    "description": "A high-density enterprise AI workspace with a compact navigation rail, task-aware secondary panel, evidence-first canvas, and restrained telemetry.",
+    "category": "dashboard",
+    "type": "product-ui",
+    "source_kind": "original",
+    "tags": ["enterprise", "AI", "agent", "operations", "dashboard", "后台", "智能体"],
+    "is_free": true,
+    "direction": {
+      "layout": "52px icon rail, 232px contextual panel, fluid work canvas, optional evidence drawer",
+      "visual": "cool gray canvas, ink typography, muted indigo accent, hairline dividers, low elevation",
+      "motion": "panel reveal and status transitions at 180–240ms; no ambient motion",
+      "interaction": "command palette, collapsible context panel, persistent composer, keyboard-first actions",
+      "responsive": "collapse context before the primary rail; move evidence into a sheet",
+      "avoid": "oversized metrics, decorative gradients, card grids for every section"
+    }
+  },
+  {
+    "id": "calm-enterprise-chat",
+    "title": "Calm Enterprise Chat",
+    "description": "A conversation-centered SaaS workspace with compact history, clear source provenance, comfortable messages, and a tool-enabled composer.",
+    "category": "ai-chat",
+    "type": "product-ui",
+    "source_kind": "original",
+    "tags": ["chat", "assistant", "RAG", "SaaS", "workspace", "问答", "知识库"],
+    "is_free": true,
+    "direction": {
+      "layout": "slim product rail, collapsible history, centered 760px message column, anchored composer",
+      "visual": "soft gray background, white canvas, graphite text, low-saturation blue-violet actions",
+      "motion": "message arrival uses opacity and a 6px rise; drawers use shared 200ms easing",
+      "interaction": "searchable history, hover actions, citations, attachments, and tool affordances",
+      "responsive": "history becomes an overlay; composer keeps attachment and send controls reachable",
+      "avoid": "large empty hero space, speech bubbles for every AI paragraph, dominant status bars"
+    }
+  },
+  {
+    "id": "data-story-dashboard",
+    "title": "Data Story Dashboard",
+    "description": "An operational dashboard pairing a narrative decision strip with compact charts, exceptions, and drill-down tables.",
+    "category": "dashboard",
+    "type": "data-product",
+    "source_kind": "original",
+    "tags": ["analytics", "KPI", "operations", "retail", "data", "数据", "监控"],
+    "is_free": true,
+    "direction": {
+      "layout": "decision summary band, two-column analytical body, full-width exception table",
+      "visual": "warm white canvas, charcoal text, one cobalt signal color, tabular numerals",
+      "motion": "animate state changes only; charts respect reduced motion",
+      "interaction": "cross-filter chips, inline comparison, sticky table headers, visible data freshness",
+      "responsive": "stack narrative before charts and turn the table into prioritized records",
+      "avoid": "rainbow charts, unlabeled trends, equal KPI cards without hierarchy"
+    }
+  },
+  {
+    "id": "soft-tool-workspace",
+    "title": "Soft Tool Workspace",
+    "description": "A focused productivity surface with calm navigation, direct manipulation, and a flexible document canvas.",
+    "category": "productivity",
+    "type": "product-ui",
+    "source_kind": "original",
+    "tags": ["workspace", "editor", "productivity", "Notion", "Linear", "工具"],
+    "is_free": true,
+    "direction": {
+      "layout": "compact sidebar, contextual header, edge-to-edge canvas with a readable inner measure",
+      "visual": "neutral surfaces, one saturated accent, crisp icons, subtle selected states",
+      "motion": "direct manipulation feedback at 120–180ms; gentle layout easing",
+      "interaction": "inline editing, slash actions, contextual menus, persistent save state",
+      "responsive": "sidebar becomes a drawer while the editing surface remains primary",
+      "avoid": "nested bordered cards, oversized page titles, a modal for every edit"
+    }
+  },
+  {
+    "id": "editorial-product-story",
+    "title": "Editorial Product Story",
+    "description": "A product narrative with asymmetric editorial rhythm, proof-led sections, and precise typographic contrast.",
+    "category": "landing-page",
+    "type": "marketing",
+    "source_kind": "original",
+    "tags": ["editorial", "launch", "SaaS", "storytelling", "产品", "官网"],
+    "is_free": true,
+    "direction": {
+      "layout": "off-center hero, alternating proof modules, editorial pull quotes, compact final CTA",
+      "visual": "cream ground, near-black type, mineral accent, controlled display typography",
+      "motion": "reveals preserve reading order; image masks open once and remain stable",
+      "interaction": "sticky section index, progressive detail, transparent CTA hierarchy",
+      "responsive": "retain typographic contrast while removing decorative offsets",
+      "avoid": "generic centered hero, repeating three-card rows, testimonial carousels"
+    }
+  },
+  {
+    "id": "cinematic-launch",
+    "title": "Cinematic Product Launch",
+    "description": "A controlled launch page built around one visual object, progressive reveals, and a decisive conversion path.",
+    "category": "landing-page",
+    "type": "marketing",
+    "source_kind": "original",
+    "tags": ["cinematic", "3D", "launch", "hardware", "motion", "发布"],
+    "is_free": true,
+    "direction": {
+      "layout": "full-bleed opening scene, object-led chapters, specification rail, short purchase close",
+      "visual": "dark field, luminous product edge, restrained chroma, precise technical labels",
+      "motion": "one coordinated timeline; provide static reduced-motion states",
+      "interaction": "chapter scrubber, specification hotspots, visible skip controls",
+      "responsive": "swap expensive scenes for composed stills and preserve the purchase path",
+      "avoid": "competing 3D objects, autoplay audio, scroll-jacking"
+    }
+  },
+  {
+    "id": "tactile-commerce",
+    "title": "Tactile Commerce",
+    "description": "A product-first commerce experience with material detail, clear variants, confident pricing, and responsive purchase feedback.",
+    "category": "commerce",
+    "type": "storefront",
+    "source_kind": "original",
+    "tags": ["ecommerce", "retail", "product", "store", "电商", "零售"],
+    "is_free": true,
+    "direction": {
+      "layout": "immersive gallery, sticky decision panel, reassurance strip, related edit",
+      "visual": "material-aware imagery, warm neutrals, high-contrast price and primary action",
+      "motion": "variant changes crossfade quickly; cart feedback is immediate and reversible",
+      "interaction": "keyboard gallery, clear stock state, size guidance, persistent mobile purchase bar",
+      "responsive": "keep price, stock, and CTA within one mobile viewport",
+      "avoid": "hidden costs, auto-advancing gallery, low-contrast availability"
+    }
+  },
+  {
+    "id": "spatial-portfolio",
+    "title": "Spatial Portfolio",
+    "description": "A creative portfolio with layered project planes, generous typography, and discoverable navigation.",
+    "category": "portfolio",
+    "type": "creative",
+    "source_kind": "original",
+    "tags": ["portfolio", "studio", "creative", "spatial", "作品集"],
+    "is_free": true,
+    "direction": {
+      "layout": "project index as anchor, layered feature planes, concise case-study chapters",
+      "visual": "monochrome base, project-specific accent, editorial type, deliberate image cropping",
+      "motion": "subtle depth and parallax; navigation has a non-animated equivalent",
+      "interaction": "project peek, keyboard navigation, persistent index and contact route",
+      "responsive": "flatten layers into a chronological sequence on small screens",
+      "avoid": "cursor gimmicks, illegible vertical text, mystery navigation"
+    }
+  }
+]
